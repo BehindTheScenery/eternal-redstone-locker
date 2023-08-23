@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "no-more-redstone",
+  "version": "${version}",
+  "name": "no-more-redstone",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/danila-schelkov/no-more-redstoneeap"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/no-more-redstone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.vorono4ka.nomoreredstone.client.NoMoreRedstoneClient"
+    ],
+    "main": [
+      "com.vorono4ka.nomoreredstone.NoMoreRedstone"
+    ]
+  },
+  "mixins": [
+    "no-more-redstone.mixins.common.json"
+  ],
+  "accessWidener" : "no-more-redstone.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

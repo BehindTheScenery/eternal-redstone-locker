@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.vorono4ka.nomoreredstone.mixin.common",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractRedstoneGateBlockMixin",
+    "GenerationSettingsMixin",
+    "GenerationSettingsMixin$Builder",
+    "RedstoneWireBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
