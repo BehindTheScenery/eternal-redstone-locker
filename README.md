@@ -1,4 +1,4 @@
-# no-more-redstone
+# Eternal Redstone Locker (no-more-redstone)
 
 This mod disables redstone updating and generation.
 

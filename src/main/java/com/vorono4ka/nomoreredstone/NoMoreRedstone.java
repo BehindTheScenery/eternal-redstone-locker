@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class NoMoreRedstone implements ModInitializer {
-    public static final String MOD_ID = "no_more_redstone";
+    public static final String MOD_ID = "eternal-redstone-locker";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     public static int modifiedSettingsCount = 0;
