@@ -7,6 +7,8 @@
     "AbstractRedstoneGateBlockMixin",
     "GenerationSettingsMixin",
     "GenerationSettingsMixin$Builder",
+    "RedstoneBlockMixin",
+    "RedstoneTorchBlockMixin",
     "RedstoneWireBlockMixin"
   ],
   "client": [
