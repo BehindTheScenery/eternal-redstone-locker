@@ -16,6 +16,25 @@ public abstract class AbstractRedstoneGateBlockMixin extends HorizontalFacingBlo
 
     /**
      * @author Vorono4ka
+     * @reason disable redstone comparator and repeater connection with redstone
+     */
+    @SuppressWarnings("deprecation")
+    @Overwrite
+    public boolean emitsRedstonePower(BlockState state) {
+        return false;
+    }
+
+    /**
+     * @author Vorono4ka
+     * @reason disable redstone comparator and repeater
+     */
+    @Overwrite
+    public boolean isValidInput(BlockState state) {
+        return false;
+    }
+
+    /**
+     * @author Vorono4ka
      * @reason disable redstone comparator and repeater
      */
     @Overwrite
