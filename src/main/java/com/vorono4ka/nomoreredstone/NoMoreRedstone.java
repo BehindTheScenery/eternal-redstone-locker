@@ -16,6 +16,6 @@ public class NoMoreRedstone implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Initialized!");
-        LOGGER.info("Modified GenerationSettings: {}", modifiedSettingsCount);
+        LOGGER.info("Modified GenerationSettings: {}", modifiedSettingsCount);  // TODO: log this info when the game is loaded
     }
 }
